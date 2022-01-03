@@ -100,6 +100,16 @@ class Widgets extends Component {
                 'is-hidden-widescreen': true,
                 'is-sticky': isColumnSticky(config, 'right')
             })}></div> : null}
+            {position === 'left' ? <div className="card widget">
+                <div className="card-content">
+                    <div className="coupang-affiliate">
+                        <iframe
+                            src="https://ads-partners.coupang.com/widgets.html?id=301746&template=carousel&trackingCode=AF0805578&subId=&width=230&height=300"
+                            width="100%" height="100%" frameBorder="0" scrolling="no"
+                            referrerpolicy="unsafe-url"></iframe>
+                    </div>
+                </div>
+            </div> : null}
         </div>;
     }
 }
